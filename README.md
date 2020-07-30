@@ -1,13 +1,3 @@
 # Datos1WebApp
 Codigo del PaaS implementado para uso del repositorio "Cloud Computing"
  
- Debido a complicaciones con el uso de Google Cloud Platform, no se pudo mostrar el código en la web a tiempo de la entrega. El error es el siguiente:
-ERROR: (gcloud.app.deploy) Error Response: [13] Flex operation projects/datos1webapp/regions/us-west2/operations/1ecf7e
-12-bbb7-4639-9498-e8b9114d574c error [INTERNAL]: An internal error occurred while processing task /appengine-flex-v1/in
-sert_flex_deployment/flex_create_resources>2020-07-30T05:05:45.936Z12875.ow.6: Deployment Manager operation datos1webap
-p/operation-1596085546335-5aba1a0053d4e-6f0a9d66-dc7c3388 errors: [code: "RESOURCE_ERROR"
-location: "/deployments/aef-default-20200730t050342/resources/aef-default-20200730t050342"
-message: "{\"ResourceType\":\"compute.beta.regionAutoscaler\",\"ResourceErrorCode\":\"403\",\"ResourceErrorMessage\":{\
-"code\":403,\"message\":\"The caller does not have permission\",\"status\":\"PERMISSION_DENIED\",\"statusMessage\":\"Fo
-rbidden\",\"requestPath\":\"https://compute.googleapis.com/compute/beta/projects/datos1webapp/regions/us-west2/autoscal
-ers\",\"httpMethod\":\"POST\"}}"
